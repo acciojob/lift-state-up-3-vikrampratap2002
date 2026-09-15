@@ -1,1 +1,76 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Parent - Green background */
+.parent {
+  background-color: #33ff00;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.parent h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+/* Child 1 - Orange/Brown background */
+.child1 {
+  background-color: #cc5500;
+  padding: 25px;
+  
+  width: 100%;
+}
+
+.child1 h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+/* Child 2 - Yellow background */
+.child2 {
+  background-color: #ffcc00;
+  padding: 25px;
+  width: 100%;
+}
+
+.child2 h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+button {
+  background-color: #f0f0f0;
+  border: 1px solid #999;
+  padding: 6px 16px;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Selected Option text */
+.selected-text {
+  margin-top: 25px;
+  font-size: 20px;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+}
